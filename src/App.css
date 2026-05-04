@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary:#6366f1;
+    --color-secondary:#8b5cf6;
+    --color-dark:#1e293b;
+    --color-light:#f8fafc;
+    --color-accent: #f59e0b;
+}
+
+
+.app-container{
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8}
+
+ 
+    .mobile-nav-item{
+    @apply   gap-2  px-3 py-2  text-gray-500 hover:bg-gray-50 font-medium  rounded-md text-sm hover:text-primary
+}
