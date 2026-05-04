@@ -1,6 +1,5 @@
-cat << 'EOF' > vercel.json
 {
-  "buildCommand": "cd . && npm run build",
-  "outputDirectory": "dist"
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "buildCommand": "npm run build"
 }
-EOF
